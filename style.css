@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url(assets/styles/header.css);
+@import url(assets/styles/banner.css);
+@import url(assets/styles/carrossel.css);
+@import url(assets/styles/topicos.css);
+@import url(assets/styles/contato.css);
+@import url(assets/styles/rodape.css);
+
+:root{
+    --backg-color01:#FEFCF9;
+    --backg-color02:#fff7f0;
+    --button-color01:#D58F68;
+    --button-color02:#B1572F;
+    --title-color:#899A5B;
+    --text-color:#26331B;
+    --gradient-color01: linear-gradient(97.54deg, #26331B 35.49%, #899A5B 165.37%);
+    --gradient-color02: linear-gradient(97.54deg, #B1572F 35.49%, #D58F68 165.37%);
+    --font-main: "Poppins";
+    --font-sec: "Josefin Sans";
+}
+
+body {
+    background-color: var(--backg-color02);
+    font-family: var(--font-main);
+    font-size: 16px;
+    font-weight: 400;
+}

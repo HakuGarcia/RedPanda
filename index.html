@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Panda Books</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="menu_botao">
+            <label for="menu" class="container_rotulo">
+                <span class="menu menu_icon menu_icon-transparente"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu_titulo">Categorias</li>
+                <li class="lista-menu_item"><a href="#" class="lista-menu_link">HQs e Manga</a></li>
+                <li class="lista-menu_item"><a href="#" class="lista-menu_link">Suspense e Mistério</a></li>
+                <li class="lista-menu_item"><a href="#" class="lista-menu_link">Ficção científica</a></li>
+                <li class="lista-menu_item"><a href="#" class="lista-menu_link">Culinária</a></li>
+            </ul>
+            <img class="menu_icon" src="assets/imgs/icons8-panda-40.png" alt="Logo da Red Panda">  
+            <h1 class="container_titulo"><b class="container_titulo-negrito">Red</b>Panda</h1>
+        </div>
+        <ul class="opcoes">
+            <input type="checkbox" id="opcoes-menu" class="opcoes_botao">
+            <label for="opcoes-menu" class="opcoes_rotulo">
+                <li class="opcoes_item">Categorias</li>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu_item"><a href="#" class="lista-menu_link">HQs e Manga</a></li>
+                <li class="lista-menu_item"><a href="#" class="lista-menu_link">Suspense e Mistério</a></li>
+                <li class="lista-menu_item"><a href="#" class="lista-menu_link">Ficção científica</a></li>
+                <li class="lista-menu_item"><a href="#" class="lista-menu_link">Culinária</a></li>
+            </ul>
+            <li class="opcoes_item"><a href="#" class="opcoes_link">Favoritos</a></li>
+            <li class="opcoes_item"><a href="#" class="opcoes_link">Minha estante</a></li>
+        </ul>
+        <div class="container">
+            <a href="#" class="container_link">
+                <img class="menu_icon menu_icon-transparente" src="assets/imgs/Favoritos (2).svg" alt="Favoritos">
+            </a>
+            <a href="#" class="container_link">
+                <img class="menu_icon" src="assets/imgs/Compras.svg" alt="Carrinho">
+                <p class="container_texto">Minha sacola</p>
+            </a>
+            <a href="#" class="container_link">
+                <img class="menu_icon" src="assets/imgs/Usuario.svg" alt="Perfil">
+                <p class="container_texto">Meu perfil</p>
+            </a>
+        </div>
+    </header>
+
+    <section class="banner">
+        <h2 class="banner_titulo">Já sabe por onde começar?</h2>
+        <p class="banner_texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+        <input type="search" class="banner_pesquisa" placeholder="Qual será sua próxima leitura?">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel_titulo">Últimos lançamentos</h2>
+        <div class="carrossel_container">
+            <div class="swiper">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img class="carrossel_imagem" src="assets/imgs/boa noite punpun.jpg" alt=""></div>
+                <div class="swiper-slide"><img class="carrossel_imagem" src="assets/imgs/akira.jpg" alt=""></div>
+                <div class="swiper-slide"><img class="carrossel_imagem" src="assets/imgs/lady snowblood.jpg" alt=""></div>
+                <div class="swiper-slide"><img class="carrossel_imagem" src="assets/imgs/chobits.jpg" alt=""></div>
+                <div class="swiper-slide"><img class="carrossel_imagem" src="assets/imgs/evangelion.jpg" alt=""></div>
+                <div class="swiper-slide"><img class="carrossel_imagem" src="assets/imgs/vagabond.jpg" alt=""></div>
+                <div class="swiper-slide"><img class="carrossel_imagem" src="assets/imgs/berserk.jpg" alt=""></div>
+                <div class="swiper-slide"><img class="carrossel_imagem" src="assets/imgs/made in abyss.jpg" alt=""></div>
+                <div class="swiper-slide"><img class="carrossel_imagem" src="assets/imgs/virgin suicides.jpg" alt=""></div>
+                <div class="swiper-slide"><img class="carrossel_imagem" src="assets/imgs/declinio de um homem.jpg" alt=""></div>
+                <div class="swiper-slide"><img class="carrossel_imagem" src="assets/imgs/metamorfose.jpg" alt=""></div>
+                <div class="swiper-slide"><img class="carrossel_imagem" src="assets/imgs/nana.jpg" alt=""></div>
+                <div class="swiper-slide"><img class="carrossel_imagem" src="assets/imgs/tokyo ghoul.jpg" alt=""></div>
+                </div>
+                
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="card">
+                <!-- 1º linha -->
+                <div class="card_descricao">
+                    <!-- 1ª coluna -->
+                    <div class="descricao">
+                        <h3 class="descricao_titulo">Talvez você também se interesse por...</h3>
+                        <h2 class="descricao_titulolivro">The Official Stardew Valley Cookbook</h2>
+                        <p class="descricao_texto">Bem-vindo à Stardew Valley, aqui cada estação trás uma nova safra de alimentos abundantes para fazer para amigos e familiares.</p>
+                    </div>
+                    <!-- 2ª coluna -->
+                    <img class="descricao_imagem" src="assets/imgs/stardew valley.jpg" alt="">
+                </div>
+                <!-- 2º linha -->
+                <div class="card_botoes">
+                    <!-- 1ª coluna -->
+                    <ul class="botoes">
+                        <li class="botoes_item"><img src="assets/imgs/favoritos.png" alt="favoritos"></li>
+                        <li class="botoes_item"><img src="assets/imgs/compras.png" alt="compras"></li>
+                    </ul>
+                    <!-- 2ª coluna -->
+                    <a href="#" class="botoes_ancora">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel_titulo">Mais vendidos</h2>
+        <div class="carrossel_container">
+            <div class="card card2">
+                <!-- 1º linha -->
+                <div class="card_descricao">
+                    <!-- 1ª coluna -->
+                    <img class="descricao_imagem" src="assets/imgs/unnamed.jpg" alt="">
+                    <!-- 2ª coluna -->
+                    <div class="descricao">
+                        <img class="estrelas" src="assets/imgs/Estrelinhas.png" alt="">
+                        <h3 class="descricao_titulo">Autor do Mês</h3>
+                        <h2 class="descricao_titulolivro">Inio Asano</h2>
+                        <p class="descricao_texto">Suas obras são conhecidas por serem realistas e abordarem o universo jovem, variando do slice of life para o horror psicológico.</p>
+                    </div>
+                </div>
+                <!-- 2º linha -->
+                <div class="card_botoes">
+                    <a href="#" class="botoes_ancora">Saiba mais</a>
+                </div>
+            </div>
+            <div class="swiper">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img class="carrossel_imagem" src="assets/imgs/dracula.jpg" alt=""></div>
+                <div class="swiper-slide"><img class="carrossel_imagem" src="assets/imgs/you.jpg" alt=""></div>
+                <div class="swiper-slide"><img class="carrossel_imagem" src="assets/imgs/garota exemplar.jpg" alt=""></div>
+                <div class="swiper-slide"><img class="carrossel_imagem" src="assets/imgs/garota interrompida.jpg" alt=""></div>
+                </div>
+                
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+    <section class="topicos">
+        <h2 class="topicos_titulo">Tópicos visitados recentemente</h2>
+        <ul class="topicos_lista">
+            <li class="topicos_item"><a href="#" class="topicos_link">Mangá</a></li>
+            <li class="topicos_item"><a href="#" class="topicos_link">Terror</a></li>
+            <li class="topicos_item"><a href="#" class="topicos_link">Shounen</a></li>
+            <li class="topicos_item"><a href="#" class="topicos_link">Literarios</a></li>
+            <li class="topicos_item"><a href="#" class="topicos_link">Poemas</a></li>
+            <li class="topicos_item"><a href="#" class="topicos_link">Suspense</a></li>
+            <li class="topicos_item"><a href="#" class="topicos_link">Drama</a></li>
+            <li class="topicos_item"><a href="#" class="topicos_link">Policial</a></li>
+        </ul>
+    </section>
+    <section class="contato">
+        <div class="contato_descricao">
+            <h2 class="contato_titulo">Fique por dentro das novidades!</h2>
+            <p class="contato_texto">Atualizações de e-books, novos livros, promoções e outros.</p>    
+        </div>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato_email">
+    </section>
+    
+    <hr/>
+
+    <footer class="rodape">
+        <h2 class="rodape_titulo">Grupo RedPanda</h2>
+        <ul class="lista_rodape">
+            <li class="lista_rodape-titulo">Livros</li>
+            <li class="lista_rodape-item">
+                <img src="assets/imgs/icons8-panda-40 (3).png" alt="">
+                <a href="#" class="lista_rodape-item-link">Panda AudioBook</a>
+            </li>
+            <li class="lista_rodape-item">
+                <img src="assets/imgs/icons8-urso-40.png" alt="">
+                <a href="#" class="lista_rodape-item-link">Bear E-book</a>
+            </li>
+        </ul>
+        <ul class="lista_rodape">
+            <li class="lista_rodape-titulo">Outros</li>
+            <li class="lista_rodape-item">
+                <img src="assets/imgs/icons8-cabeça-de-gato-40.png" alt="">
+                <a href="#" class="lista_rodape-item-link">Cat Negócios</a>
+            </li>
+            <li class="lista_rodape-item">
+                <img src="assets/imgs/icons8-poodle-40.png" alt="">
+                <a href="#" class="lista_rodape-item-link">Poodle Beauty</a>
+            </li>
+            <li class="lista_rodape-item">
+                <img src="assets/imgs/icons8-so-penguin-40.png" alt="">
+                <a href="#" class="lista_rodape-item-link">Penguin Linguas</a>
+            </li>
+        </ul>
+        <ul class="lista_rodape">
+            <li class="lista_rodape-titulo">Comunidade</li>
+            <li class="lista_rodape-item">
+                <img src="assets/imgs/icons8-floresta-40.png" alt="">
+                <a href="#" class="lista_rodape-item-link">Tree Comunity</a>
+            </li>
+        </ul>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+</html>
